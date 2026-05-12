@@ -16,7 +16,7 @@ If `target` exists, then return its index. Otherwise, return `-1`. You must writ
 ## ⚙️ Solution Analysis
 
 **Time Complexity: O(log n)**
-By halving the search space in each iteration, the algorithm reaches the target (or determines its absence) in logarithmic time.
+By halving the search space in each iteration, the algorithm reaches the target in logarithmic time.
 
 **Space Complexity: O(1)**
 We only use a few pointer variables (`left`, `right`, `mid`), regardless of the input size.
